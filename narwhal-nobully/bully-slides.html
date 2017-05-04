@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--This is the page that the 'Slides' link goes to. Instead of a URL to an location on the internet, the <a> 
+tag tells the homepage document where to find this HTML document. -->
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+		<title>Slideshow</title>
+		<style>
+			body { 
+				background-color: #95d3fc;
+				text-align: center;
+				font-family: Arial, Helvetica, sans-serif; 
+			}
+			header {
+				padding: 1em;
+				color: #FEFEFE;
+				background-color:#1570AD;
+				text-align: center;
+				font-family: 'Permanent Marker', cursive;
+				font-size: 22px;
+			}
+			iframe {
+				padding-top: 2%;
+			}
+			nav {
+				margin: 0;
+				padding: 2em; 
+				background-color: #FEFEFF; 
+				text-align: left;
+			}
+			.btn {
+				text-decoration: none; 
+				border: 1px solid cornflowerblue; 
+				padding: 10px; 
+				background-color: #1570AD; 
+			}
+			#gbtn {
+				background-color: lawngreen; 
+			}
+			#sbtn {
+				background-color: aqua;
+			}
+			#abtn {
+				background-color: slateblue;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Slideshow</h1>
+		</header>
+		<nav>
+			<a class="btn" href="/">Home</a>
+			<a id="gbtn" class="btn" href="/bully-game">Game</a>
+			<!-- This <a> link will tell the page the file path on a computer -->
+			<a id="sbtn" class="btn" href="/bully-slides">Slideshow</a>
+			<a id="abtn" class="btn" href="/bully-about">About</a>
+		</nav>
+		<iframe src="https://docs.google.com/presentation/d/1GBZ0zUhunnUqXrSxNT_LpF2XrEK0ptPhh602A00tUfQ/embed?start=false&loop=false&delayms=3000" 
+			frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+		</iframe>
+	</body>
+</html>

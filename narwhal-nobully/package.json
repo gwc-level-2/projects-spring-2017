@@ -1,0 +1,12 @@
+{
+  "name": "narwhal-nobully",
+  "version": "1.0.0",
+  "description": "An app to provide information on food deserts",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--This is the page that the 'Game' link goes to. Instead of a URL to an location on the internet, the <a> 
+tag tells the homepage document where to find this HTML document. -->
+<html>
+	<head>
+		<title>Game</title>
+		<style>
+			body { 
+				background-color: #95d3fc;
+				text-align: center;
+				font-family: Arial, Helvetica, sans-serif; 
+			}
+			header {
+				padding: 1em;
+				color: #FEFEFE;
+				background-color:#1570AD;
+			}
+			nav {
+				margin: 0;
+				padding: 2em; 
+				background-color:#FEFEFF; 
+				text-align: left;
+			}
+			.btn {
+				text-decoration: none; 
+				border: 1px solid cornflowerblue; 
+				padding: 10px; 
+				background-color: #1570AD; 
+			}
+			#gbtn {
+				background-color: lawngreen; 
+			}
+			#sbtn {
+				background-color: aqua;
+			}
+			#abtn {
+				background-color: slateblue;
+			}
+			#txt {
+				float: left;
+				margin-left: 10%;
+				margin-top: 2%;
+				padding: 2%;
+
+				border: 2px solid #FEFEFE;
+				border-radius: 4px;
+				background-color: #20a2f8; 
+				color: #fefefe;
+				font-size: 21px;
+				box-shadow: 0 4px 8px 0 #20a2f8, 0 6px 20px 0 #20a2f8;
+			}
+			iframe {
+				margin-top: 2%;
+				border: 2px solid #404040; 
+				border-radius: 3px;
+				margin-bottom: 2%;
+			}
+		</style>
+	</head>
+	<body>
+		<header></header>
+		<nav>
+			<a class="btn" href="/">Home</a>
+			<a id="gbtn" class="btn" href="/bully-game">Game</a>
+			<a id="sbtn" class="btn" href="/bully-slides">Slideshow</a>
+			<a id="abtn" class="btn" href="/bully-about">About</a>
+		</nav>
+		<div id="txt">
+			<div>Click 'Run' to</div> 
+			<div>play the game!</div>
+		</div>
+		<iframe src="https://www.codesters.com/embed/preview/784bced67825446b9ac45696112dc8e1/" 
+		height="590" width="500"></iframe>
+	</body>
+</html>
